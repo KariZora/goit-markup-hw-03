@@ -10,39 +10,45 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navigation">
-            <a class="logo-link link" href="./index.html"><span class="web">Web</span>Studio</a>
+        <div class="container">
+            <nav class="navigation">
+                <a class="logo-link link" href="./index.html"><span class="web">Web</span>Studio</a>
+    
+                <ul class="menu-list list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+                <ul class="contacts-list list">
+                    <li class="contacts-list-item">
+                        <address class="contacts-item">
+                            <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </address>
+                    </li>
+                    <li class="contacts-list-item">
+                        <address class="contacts-item">
+                            <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </address>
+                    </li>
+                </ul>
+        </div>
 
-            <ul class="menu-list list">
-                <li class="menu-item">
-                    <a class="menu-link link" href="./index.html">Студия</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-            <ul class="contacts-list list">
-                <li>
-                    <address class="contacts-item">
-                        <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </address>
-                </li>
-                <li>
-                    <address class="contacts-item">
-                        <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </address>
-                </li>
-            </ul>
     </header>
 
     <main>
-        <h1 hidden>Примеры работ</h1>
+        <div class="filters-div">
+        <div class="container">
+            <h1 hidden>Примеры работ</h1>
         <!-- Filters -->
-            <ul class="list">
+        
+            <ul class="filters-list list">
                 <li>
                     <button class="filter-item-btn">Все</button>
                 </li>
@@ -59,107 +65,123 @@
                     <button class="filter-item-btn">Маркетинг</button>
                 </li>
             </ul>
+        </div>
+        </div>
 
-            <ul class="list">
-                <li>
-                    <a class="link" href="">
-                    <img src="./images/Projects/1.png" alt="Веб-сайт">
+        <div class="projects">
+        <div class="container">
+            <ul class="projects-list list">
+                <li class="projects-list-item">
+                    <a class=" link" href="">
+                    <img class="projects-img" src="./images/Projects/1.png" alt="Веб-сайт">
                     <h2 class="projects-item">Технокряк</h2>
                     <p class="project-item-title">Веб-сайт</p>
                     <p class="projects-item-description" hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>   
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/2.png" alt="Дизайн">
+                        <img class="projects-img" src="./images/Projects/2.png" alt="Дизайн">
                         <h2 class="projects-item">Постер New Orlean vs Golden Star</h2>
                         <p class="project-item-title">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/3.png" alt="Приложение">
+                        <img class="projects-img" src="./images/Projects/3.png" alt="Приложение">
                         <h2 class="projects-item">Ресторан Seafood</h2>
                         <p class="project-item-title">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/4.png" alt="Маркетинг">
+                        <img class="projects-img" src="./images/Projects/4.png" alt="Маркетинг">
                         <h2 class="projects-item">Проект Prime</h2>
                         <p class="project-item-title">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/5.png" alt="Приложение">
+                        <img class="projects-img" src="./images/Projects/5.png" alt="Приложение">
                         <h2 class="projects-item">Проект Boxes</h2>
                         <p class="project-item-title">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/6.png" alt="Веб-сайт">
+                        <img class="projects-img" src="./images/Projects/6.png" alt="Веб-сайт">
                         <h2 class="projects-item">Inspiration has no Borders</h2>
                         <p class="project-item-title">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/7.png" alt="Дизайн">
+                        <img class="projects-img" src="./images/Projects/7.png" alt="Дизайн">
                         <h2 class="projects-item">Издание Limited Edition</h2>
                         <p class="project-item-title">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/8.png" alt="Маркетинг">
+                        <img class="projects-img" src="./images/Projects/8.png" alt="Маркетинг">
                         <h2 class="projects-item">Проект LAB</h2>
                         <p class="project-item-title">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="projects-list-item">
                     <a class="link" href="">
-                        <img src="./images/Projects/9.png" alt="Приложение">
+                        <img class="projects-img" src="./images/Projects/9.png" alt="Приложение">
                         <h2 class="projects-item">Growing Business</h2>
                         <p class="project-item-title">Приложение</p>
                     </a>
                 </li>
             </ul>
+        </div>
+        </div>
     </main>
 
     <footer>
-        <div>
-            <a class="logo-link-footer link" href="./index.html"><span class="web">Web</span>Studio</a>
-            <ul class="list">
-                <li>
-                    <address><a class="adress-item link" href="https://goo.gl/maps/cfzTt26jJgseavG87" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
-                </li>
-                <li>
-                    <address><a class="mail-item link" href="mailto:info@example.com">info@example.com</a></address>
-                </li>
-                <li>
-                    <address><a class="tel-item link" href="tel:+380991111111">+38 099 111 11 11</a></address>
-                </li>
-            </ul>
-        </div>
+        <div class="container footer-container">
+            <div class="address-section">
+                <a class="logo-link-footer link" href="./index.html"><span class="web">Web</span>Studio</a>
+                <ul class="address-list list">
+                    <li class="address-list-item">
+                        <address><a class="adress-item link" href="https://goo.gl/maps/cfzTt26jJgseavG87" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
+                    </li>
+                    <li class="address-list-item">
+                        <address><a class="mail-item link" href="mailto:info@example.com">info@example.com</a></address>
+                    </li>
+                    <li class="address-list-item">
+                        <address><a class="tel-item link" href="tel:+380991111111">+38 099 111 11 11</a></address>
+                    </li>
+                </ul>
+            </div>
 
-        <div>
-            <b class="join-in">присоединяйтесь</b>
-            <ul class="list">
-                <li>
-                    <a href="" aria-label="instagram icon"></a>
-                </li>
-                <li>
-                    <a href="" aria-label="twitter icon"></a>
-                </li>
-                <li>
-                    <a href="" aria-label="facebook icon"></a>
-                </li>
-                <li>
-                    <a href="" aria-label="in icon"></a>
-                </li>
-            </ul>
+            <div class="join-in-section">
+                <p class="join-in">присоединяйтесь</p>
+                <ul class="join-in-list list">
+                    <li class="social-links-item">
+                        <a class="social-link" href="">
+                            <img src="./images/social-links/instagram.svg" alt="Инстаграм">
+                        </a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-link" href="">
+                            <img src="./images/social-links/twitter.svg" alt="Твиттер">
+                        </a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-link" href="">
+                            <img src="./images/social-links/facebook.svg" alt="Фейсбук">
+                        </a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-link" href="">
+                            <img src="./images/social-links/linkedin.svg" alt="Линкедин">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
